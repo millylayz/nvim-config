@@ -283,7 +283,8 @@ inoremap jj <Esc>:w<CR>
 set nu
 set showcmd
 " set autochdir
-" set tabstop=4
+set tabstop=4
+set expandtab    " tab扩展成空格
 set incsearch
 set hlsearch
 set shiftwidth=4 " 设置自动缩进长度为4空格
